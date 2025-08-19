@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ecb5db; /* Light clean background */
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  display: block;
+  margin: 12px auto;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #6dd5fa, #2980b9);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #2980b9, #6dd5fa);
+}
+
+.result-btn, .back-btn {
+  margin-top: 20px;
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+  color: #333;
+  font-weight: bold;
+}
